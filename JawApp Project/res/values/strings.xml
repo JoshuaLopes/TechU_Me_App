@@ -4,5 +4,6 @@
     <string name="app_name">Jaw App Project</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="Z">Z was here!</string>
 
 </resources>
