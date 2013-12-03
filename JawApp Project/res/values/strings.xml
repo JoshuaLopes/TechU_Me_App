@@ -5,5 +5,11 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="Z">Z was here!</string>
+    <string name="button1">Choice1</string>
+    <string name="Message">Move Blue Circle to end (Satisfied) Move Circle to left (Not Satisfied)</string>
+    <string name="Mm">Move Circle to End(Satisfied)</string>
+    <string name="Mmm">Move Circle to Left(Not Satisfied)</string>
+    <string name="MMm">Circle to Left(Not Satisfied)</string>
+    <string name="MMmm">MoveCircleLeft(NotSatisfied)</string>
 
 </resources>
