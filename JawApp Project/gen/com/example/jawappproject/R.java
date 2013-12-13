@@ -46,19 +46,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int textView1=0x7f090004;
     }
     public static final class layout {
-        public static final int activity_basic_income=0x7f030000;
-        public static final int activity_commission=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_spending=0x7f030003;
-        public static final int activity_splash_screen=0x7f030004;
-        public static final int activity_targeting=0x7f030005;
+        public static final int activity_main=0x7f030000;
+        public static final int activity_splash_screen=0x7f030001;
+        public static final int activity_targeting=0x7f030002;
     }
     public static final class menu {
-        public static final int basic_income=0x7f080000;
-        public static final int commission=0x7f080001;
-        public static final int main=0x7f080002;
-        public static final int spending=0x7f080003;
-        public static final int targeting=0x7f080004;
+        public static final int main=0x7f080000;
+        public static final int targeting=0x7f080001;
     }
     public static final class string {
         public static final int MMm=0x7f060008;
@@ -73,6 +67,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int dummy_button=0x7f06000b;
         public static final int dummy_content=0x7f06000c;
         public static final int hello_world=0x7f060002;
+        public static final int stringBasic_Income=0x7f060011;
+        public static final int stringChoose_which_action_you_would_like_to_use_first=0x7f060015;
+        public static final int stringCommission=0x7f060012;
+        public static final int stringSpending=0x7f060014;
+        public static final int stringTargeting=0x7f060013;
         public static final int title_activity_basic_income=0x7f060010;
         public static final int title_activity_commission=0x7f06000e;
         public static final int title_activity_spending=0x7f06000f;
@@ -83,18 +82,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
-
         
 
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
-
     
  API 11 theme customizations can go here. 
 

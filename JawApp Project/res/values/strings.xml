@@ -18,5 +18,10 @@
     <string name="title_activity_commission">Commission</string>
     <string name="title_activity_spending">Spending</string>
     <string name="title_activity_basic_income">BasicIncome</string>
+    <string name="stringBasic_Income">Basic Income</string>
+    <string name="stringCommission">Commission</string>
+    <string name="stringTargeting">Targeting</string>
+    <string name="stringSpending">Spending</string>
+    <string name="stringChoose_which_action_you_would_like_to_use_first">Choose which action you would like to use first ?</string>
 
 </resources>
