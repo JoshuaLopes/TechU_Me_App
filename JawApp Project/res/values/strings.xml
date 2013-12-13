@@ -15,5 +15,8 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_targeting">Targeting</string>
+    <string name="title_activity_commission">Commission</string>
+    <string name="title_activity_spending">Spending</string>
+    <string name="title_activity_basic_income">BasicIncome</string>
 
 </resources>

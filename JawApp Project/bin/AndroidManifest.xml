@@ -37,6 +37,18 @@
             android:name="com.example.jawappproject.Targeting"
             android:label="@string/title_activity_targeting" >
         </activity>
+        <activity
+            android:name="com.example.jawappproject.Commission"
+            android:label="@string/title_activity_commission" >
+        </activity>
+        <activity
+            android:name="com.example.jawappproject.Spending"
+            android:label="@string/title_activity_spending" >
+        </activity>
+        <activity
+            android:name="com.example.jawappproject.BasicIncome"
+            android:label="@string/title_activity_basic_income" >
+        </activity>
     </application>
 
 </manifest>
