@@ -9,15 +9,6 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="128dp"
-        android:text="@string/stringBasic_Income" />
-
-    <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,6 +17,15 @@
         android:layout_below="@+id/button1"
         android:layout_marginTop="51dp"
         android:text="@string/stringTargeting" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/stringChoose_which_action_you_would_like_to_use_first" />
 
     <Button
         android:id="@+id/button4"
@@ -41,17 +41,19 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button3"
         android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="43dp"
         android:text="@string/stringCommission" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="14dp"
-        android:text="@string/stringChoose_which_action_you_would_like_to_use_first" />
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:text="@string/stringBasic_Income" />
 
 </RelativeLayout>
